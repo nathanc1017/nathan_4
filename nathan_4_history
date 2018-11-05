@@ -28,3 +28,10 @@
    28  cat ~/.ssh/id_rsa.pub 
    29  git push -u origin master
    30  history
+   31  git add 
+   32  history > nathan_4_1105_history
+   33  git add nathan_4_1105_history
+   34  git commit -m "nathan 11/05"
+   35  git push -u origin matser
+   36  git push -u origin master
+   37  history
