@@ -35,3 +35,48 @@
    35  git push -u origin matser
    36  git push -u origin master
    37  history
+   
+    2  history 
+    3   echo "bob"
+    4  history 
+    5    echo "bob"
+    6  history 
+    7  touch < myfirstscript
+    8  touch myfirstscript
+    9  cat < myfirstscript
+   10  cat 0< myfirstscript
+   11  cat file
+   12  touch file 
+   13  ls -al myfirstscript > longlisting
+   14  cat longlisting
+   15  history 
+   16  ls -al myfirstscript 1> longlisting
+   17  cat > test
+   18  cat test 
+   19  ls -al
+   20  cat newfile
+   21  cat < myfirstscript > mynewscript
+   22  cp myfirstscript mynewscript
+   23  ls -al myfirstscript > longlisting
+   24  ls -al myfirstscript >> longlisting
+   25  find / -name "*" -print
+   26  find / -name "*" -print 2> /dev/null
+   27  ls -al 2> myerror
+   28  history
+   29  touch longlisting 
+   30  ls -al  2> myerror 
+   31  ls -al 2>> myerror 
+   32  find / -name "*" -print 2> /dev/null > MyValidOutput
+   33  find / -name "*" -print >MyValidOutput 2>/dev/null
+   34  find / -name "*" -print >> output 2>> /dev/null
+   35  find / -name "*" -print 2> samefile 1>&#38;2
+   36  find / -name "*" -print 1> file 2>&#38;1
+   37  find / -name "*" -print 1>> file 2>>&#38;1
+   38  ls -la | less 
+   39  ls -l | grep myfirstfile | less
+   40  who | grep <scoop>
+   41  who | grep pts
+   42  who | grep pts > outfile
+   43  history
+
+   
